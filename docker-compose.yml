@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      BOT_TOKEN: $BOT_TOKEN
+      SESSION: $SESSION
+      OWNER_ID: $OWNER_ID
+      CHANNEL_LINK: $CHANNEL_LINK
+      GROUP_LINK: $GROUP_LINK
+      OKTETO_TOKEN: $OKTETO_TOKEN
